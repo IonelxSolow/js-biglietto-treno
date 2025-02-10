@@ -25,8 +25,16 @@ console.log(ageUser);
 
 //prezzo biglietto e il prodotto tra km e 0.21
 
-const priceBiglietto = kmUser * 0.21
-console.log(priceBiglietto)
+const priceBiglietto = kmUser * 0.21;
+console.log(priceBiglietto);
+
+//sconto 20% da applicare ai minori di 18 anni
+
+if (ageUser < 18) {
+    priceBiglietto
+}
+
+//sconto 40% da applicare agli over 65 anni
 
 //il prezzo finale massimo 2 decimali (12,34€)
 
